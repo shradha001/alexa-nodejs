@@ -2,7 +2,6 @@
 A sample Alexa skill using Express Framework
 
 ## Getting Started
-
 ```sh
 git clone https://github.com/shradha001/alexa-nodejs.git
 cd alexa-nodejs
@@ -20,9 +19,7 @@ npm install
 npm start
 ```
 
-
-
-#Steps to create Alexa Skill
+###Steps to create Alexa Skill
 * Go to [Alexa Developer Console](https://developer.amazon.com/alexa/console/ask).
 * Sign In with your Amazon Account or create a new one.
 * Once logged, you will be redirected to 'Your Skills' section.
@@ -33,7 +30,6 @@ npm start
 * Create two intents named 'GreetIntent' and 'ByeIntent'. Adding utterances such as 'hi', 'hello', etc to 'GreetIntent' and 'bye', 'see you', 'catch you later' to 'ByeIntent'.
 * Tap on 'Save Model' and then 'Build Model'.
 * Next tap on 'Endpoint'. Check the radio button for 'HTTPS'. Put the URL, '<YOUR_HTTPS_SERVER_URL>/alexa/webhook' in the 'Default Region' text box and below choose the option based on how you generated the secured URL. Finally tap on 'Save Endpoints'.
-
 
 ### Testing the Alexa Skill
 * On your Alexa Skill dashboard, tap on 'Test'.
