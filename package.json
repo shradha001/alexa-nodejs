@@ -1,0 +1,32 @@
+{
+  "name": "alexa-nodejs",
+  "version": "0.0.1",
+  "description": "Alexa Skill using Express",
+  "main": "bin/www",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shradha001/alexa-nodejs.git"
+  },
+  "keywords": [
+    "alexa",
+    "express"
+  ],
+  "author": "Shradha Mallik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shradha001/alexa-nodejs/issues"
+  },
+  "homepage": "https://github.com/shradha001/alexa-nodejs#readme",
+  "dependencies": {
+    "ask-sdk-core": "^2.3.0",
+    "ask-sdk-model": "^1.9.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4"
+  }
+}
