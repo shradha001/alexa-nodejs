@@ -19,7 +19,7 @@ npm install
 npm start
 ```
 
-###Steps to create Alexa Skill
+### Steps to create Alexa Skill
 * Go to [Alexa Developer Console](https://developer.amazon.com/alexa/console/ask).
 * Sign In with your Amazon Account or create a new one.
 * Once logged, you will be redirected to 'Your Skills' section.
